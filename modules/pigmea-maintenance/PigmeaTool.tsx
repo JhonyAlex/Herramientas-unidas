@@ -12,11 +12,11 @@ import {
   Legend
 } from 'chart.js';
 import { Line, Bar } from 'react-chartjs-2';
-import { Card } from '../../components/ui/Card';
-import { Button } from '../../components/ui/Button';
-import { StorageService } from '../../services/storageService';
-import { PigmeaStats } from './types';
-import { processCsvData, generateReportText } from './logic';
+import { Card } from '../../components/ui/Card.tsx';
+import { Button } from '../../components/ui/Button.tsx';
+import { StorageService } from '../../services/storageService.ts';
+import { PigmeaStats } from './types.ts';
+import { processCsvData, generateReportText } from './logic.ts';
 
 // Registrar componentes de Chart.js
 ChartJS.register(

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { AVAILABLE_TOOLS } from '../constants';
+import { AVAILABLE_TOOLS } from '../constants.tsx';
 
 interface LayoutProps {
   children: React.ReactNode;

@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { Card } from '../../components/ui/Card';
-import { Button } from '../../components/ui/Button';
-import { StorageService } from '../../services/storageService';
-import { generateDraft } from './geminiService';
-import { HistoryItem } from '../../types';
+import { Card } from '../../components/ui/Card.tsx';
+import { Button } from '../../components/ui/Button.tsx';
+import { StorageService } from '../../services/storageService.ts';
+import { generateDraft } from './geminiService.ts';
+import { HistoryItem } from '../../types.ts';
 
 // Tipos específicos del módulo
 interface DraftHistory extends HistoryItem {

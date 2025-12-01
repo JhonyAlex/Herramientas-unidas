@@ -1,5 +1,5 @@
 import Papa from 'papaparse';
-import { CsvRow, PigmeaStats } from './types';
+import { CsvRow, PigmeaStats } from './types.ts';
 
 // Nombres de columnas mapeados
 const COL_ESTADO = "Estado";
