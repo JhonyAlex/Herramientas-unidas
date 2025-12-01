@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout.tsx';
-import Dashboard from './components/Dashboard.tsx';
-import { AVAILABLE_TOOLS } from './constants.tsx';
+import Layout from './components/Layout';
+import Dashboard from './components/Dashboard';
+import { AVAILABLE_TOOLS } from './constants';
 
 const App: React.FC = () => {
   return (

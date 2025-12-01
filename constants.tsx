@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { ToolRegistryItem, ToolCategory } from './types.ts';
-import AiDrafterTool from './modules/ai-drafter/AiDrafterTool.tsx';
-import PigmeaTool from './modules/pigmea-maintenance/PigmeaTool.tsx';
+import { ToolRegistryItem, ToolCategory } from './types';
+import AiDrafterTool from './modules/ai-drafter/AiDrafterTool';
+import PigmeaTool from './modules/pigmea-maintenance/PigmeaTool';
 
 // REGISTRO DE HERRAMIENTAS
 // Aquí es donde se añaden nuevas herramientas para que aparezcan automáticamente en la app.

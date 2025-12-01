@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import { AVAILABLE_TOOLS } from '../constants.tsx';
-import { Card } from './ui/Card.tsx';
-import { ToolCategory } from '../types.ts';
+import { AVAILABLE_TOOLS } from '../constants';
+import { Card } from './ui/Card';
+import { ToolCategory } from '../types';
 
 const Dashboard: React.FC = () => {
   // Agrupar herramientas por categoría

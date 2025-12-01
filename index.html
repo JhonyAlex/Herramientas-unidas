@@ -26,8 +26,7 @@
         background-color: #f8fafc;
       }
     </style>
-    <!-- Import Map para dependencias externas -->
-    <script type="importmap">
+  <script type="importmap">
 {
   "imports": {
     "react": "https://esm.sh/react@18.2.0",
@@ -43,12 +42,8 @@
   }
 }
 </script>
-    <!-- Babel para compilar JSX en el navegador -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  </head>
+</head>
   <body>
     <div id="root"></div>
-    <!-- Script de entrada principal. data-type="module" es clave para que funcionen los imports -->
-    <script type="text/babel" data-type="module" src="./index.tsx"></script>
   </body>
 </html>
